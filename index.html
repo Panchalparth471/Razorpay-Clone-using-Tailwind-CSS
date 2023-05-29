@@ -7,8 +7,8 @@
     <title>Razorpay</title>
     <link rel="stylesheet" href="./main.css">
 </head>
-<body>
-      <nav class="bg-deepBlue flex-wrap">
+<body class="overflow-x-hidden">
+      <nav class="bg-deepBlue flex-wrap w-screen">
         <div class="relative w-[1080px] mx-auto flex items-center justify-between flex-wrap">
              <!--logo-->
                <a href="/" class="cursor-pointer py-7 pr-7">
@@ -75,7 +75,7 @@
 
         </div>
       </nav>
-      <div class="hero bg-deepBlue h-screen flex flex-wrap px-14 justify-between">
+      <div class="hero bg-deepBlue h-screen flex flex-wrap px-14 justify-between w-screen">
            <div class="flex text-white h-3/4 w-full text-[2.5rem] font-bold m-32 font-mullish justify-between -translate-y-[100px] max-w-[1080px]">
               <div class="flex flex-col justify-around mt-5 ml-10 py-[8%]">
                 <h1 class="font-mullish font-bold text-[40px] leading-[1.2] text-white">
@@ -96,9 +96,25 @@
                <img src="hero-illustration.jpg" class="w-full h-full">
              </div>
              </div>
-             
-             
+            <!-- <div class="flex w-100 h-100 translate-x-[1080px] -translate-y-[10px]"> -->
+
              
       </div>
+        <div class="flex flex-row-reverse absolute w-screen right-0 left-0">
+              <img src="./assets/hero-shape.svg" class="w-full">
+            </div>
+            <div class="flex flex-col w-screen h-[1080px] justify-evenly items-center">
+                  <h1 class="font-mullish text-[24px] font-bold tracking-[1] leading-[1.33]">Accept Payments with Razorpay Payment Suite</h1>
+                    <div class="w-6 h-1 bg-greenLight"></div>
+                    <div class="flex w-[80%] h-[50%]">
+                    <div>
+                      <h1></h1>
+                    </div>
+                    <div>
+                      <img src="payment-suite.png">
+                    </div>
+                    </div>
+            </div> 
+            
 </body>
 </html>
